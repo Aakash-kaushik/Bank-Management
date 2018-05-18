@@ -3,7 +3,7 @@ this is a program made by using C++ this program can read and write a users(sing
 
 # functions this program can do:
 1. Create account in bank
-2. access your account and perform the following functions:
+2. access your account and perform the following functions:\n
   2.1 Withdrawl money
   2.2 Deposit money
   2.3 Check your balance amount
