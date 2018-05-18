@@ -5,7 +5,7 @@
 *.slo
 *.lo
 *.o
-*.obj
+*BANK_MAN.obj
 
 # Precompiled Headers
 *.gch
@@ -27,6 +27,6 @@
 *.lib
 
 # Executables
-*.exe
+*BANK_MAN.exe
 *.out
 *.app
