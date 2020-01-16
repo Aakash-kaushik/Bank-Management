@@ -1,4 +1,4 @@
-#include <iostream.h>
+
 #include <fstream.h>
 #include <conio.h>
 #include <stdio.h>
@@ -50,7 +50,7 @@ int pin_forget()
 	cout<<"NOTE: more number of attempts than allowed will result in termination of the program.!"<<endl;
 	cout<<"who's your childhood superhero: "; gets(securityanswer);
 	resecurity:
-	for(securityloop=0;securityloop<100;securityloop++)
+	for(securityloop=0;securityloop<='\0';securityloop++)
 	if(securityanswer[securityloop]==securityquestion[securityloop])
 	{
 		cout<<"Enter new pin: "; cin>>userpin;
